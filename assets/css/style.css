@@ -56,6 +56,10 @@ h2 {
   color: #fff;
   background-color: #0093cf;
 }
+.btn-yelow {
+  color: #fff;
+  background-color: #2baa95;
+}
 .btn-blue:hover,
 .btn-blue:focus {
   color: #fff;
@@ -164,10 +168,12 @@ h2 {
   background-position: center center;
   background-size: cover;
 }
+
 #home h1 {
   margin-top: 0;
   margin-bottom: 20px;
   font-size: 40px;
+  font-weight: bold;
 }
 
 #home a { margin: 0 5px }

@@ -22,16 +22,16 @@
     <div class="loader">
       <div class="fading-line"></div>
     </div>
-    <section id="#home2" class="page">
+    <section id="home2" class="page home2">
       <div class="container">
         <div class="content cover text-center">
           <div class="row">
             <div class="col-lg-12">
-              <h1 class="animated hiding" data-animation="fadeInDown" data-delay="300">DÉCOUVREZ LE PARIS SOCIAL ET SOLIDAIRE ! </h1>
+              <h1 class="animated hiding" data-animation="fadeInDown" data-delay="300"><strong>DÉCOUVREZ LE PARIS SOCIAL ET SOLIDAIRE ! </strong> </h1>
               <h3 class="animated hiding" data-animation="fadeIn" data-delay="600">Coup de pouce associatif, tous ensemble agissons !<br>
               </h3>
                 <br>
-                <a class="btn btn-blue nav-external animated hiding" data-animation="fadeIn" data-delay="900" href="#services">En savoir + </a>
+                <a class="btn btn-yelow nav-external animated hiding" data-animation="fadeIn" data-delay="900" href="#services"> En savoir + </a>
               </div>
             </div>
           </div>
@@ -55,7 +55,7 @@
                   <a href="#home">Accueil</a>
                 </li>
                 <li>
-                  <a href="#services">Notre solution</a>
+                  <a href="#services">S'engager simplement</a>
                 </li>
                 <li>
                   <a href="#works">Nos outils</a>
@@ -67,8 +67,9 @@
                   <a href="#about">L'équipe</a>
                 </li>
                 <li>
-                  <a href="#contact">Nous contacter</a>
+                  <a href="associations.html" id="asso_link">Je suis une association !</a>
                 </li>
+
               </ul>
             </div>
           </div>
@@ -80,7 +81,7 @@
             <div class="heading">
               <h2>UNE SOLUTION SIMPLE EN LIGNE, </br>POUR LES PETITES ET MOYENNES ASSOCIATIONS !</h2>
               <div class="border"></div>
-              <p>Service en ligne pour vous aider à recruter des bénévoles pour des missions ponctuelles</br>pour diffuser vos causes ou encore gagner en notorité ? </br>Paris je t'aide, un service gratuit, simple et intuitif !</p>
+              <p>Bientôt, la nouvelle plateforme web des actions sociales et solidaires à Paris. Trouve enfin une façon simple de t'engager selon tes disponibiltés et tes envies !</p>
             </div>
             <div class="row">
               <div class="col-lg-4 service animated hiding" data-animation="fadeInUp" data-delay="300">
@@ -427,6 +428,11 @@
       <script src="assets/js/jquery.appear.min.js"></script>
       <script src="assets/js/twitterFetcher.min.js"></script>
       <script src="assets/js/script.js"></script>
+      <script type="text/javascript">
+        $(function(){
+          $("#asso_link").off("click");
+        })
+      </script>
       <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
         function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
@@ -435,5 +441,6 @@
       r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
       ga('create','UA-25089888-9');ga('send','pageview');
       </script>
+
     </body>
     </html>
