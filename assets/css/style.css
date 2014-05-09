@@ -169,22 +169,20 @@ h2 {
   background-color: #ebe22f;
 }
 .page .heading p { margin: 30px auto 0 }
-#home {
+
+.home {
   padding: 0;
   color: #fff;
-  background-image: url(../img/cover/home.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 
-#home2 {
-  padding: 0;
-  color: #fff;
+#home-bg {
   background-image: url(../img/cover/home2.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+}
+#asso-bg {
+  background-image: url(../img/cover/home.jpg);
 }
 
 #home h1 {
