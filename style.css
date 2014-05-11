@@ -25,6 +25,11 @@ a:focus {
   color: #0c86b6;
   text-decoration: none;
 }
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
 
 .hiding { opacity: 0 }
 .showing { opacity: 1 }
