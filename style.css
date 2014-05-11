@@ -25,6 +25,7 @@ a:focus {
   color: #0c86b6;
   text-decoration: none;
 }
+
 .hiding { opacity: 0 }
 .showing { opacity: 1 }
 .img-rounded {
