@@ -370,6 +370,13 @@ h2 {
   background-position: center center;
   background-size: cover;
 }
+
+#contact1 {
+  background: url(../img/cover/contact1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
 #contact,
 #contact a,
 #contact a:hover,
