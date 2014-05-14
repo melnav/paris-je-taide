@@ -145,11 +145,11 @@ h2 {
           border-radius: 0;
 }
 .navbar-default .navbar-brand {
-  font-weight: 500;
+  font-weight: 400;
   text-transform: uppercase;
 }
 .navbar-default .navbar-nav > li > a {
-  font-weight: 600;
+  font-weight: 470;
   text-transform: uppercase;
 }
 .navbar-default .navbar-nav > .active > a,
