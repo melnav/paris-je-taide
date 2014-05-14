@@ -63,6 +63,8 @@ h2 {
   font-weight:bold;
 }
 
+
+
 .h2 {
   color: #2baa95;
   font-size: 26px;
@@ -73,12 +75,24 @@ h2 {
 }
 
 .btn-blue {
-  color: #fff;
-  background-color: #0093cf;
+  color: #3abf96;
+  background-color: #fffeff;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 18px;
+
+
 }
 .btn-yelow {
-  color: #fff;
-  background-color: #3786c2;
+  color: #3187bd;
+  background-color: #fefefd;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 18px;
 }
 .btn-blue:hover,
 .btn-blue:focus {
@@ -131,7 +145,7 @@ h2 {
           border-radius: 0;
 }
 .navbar-default .navbar-brand {
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
 }
 .navbar-default .navbar-nav > li > a {
