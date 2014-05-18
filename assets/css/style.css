@@ -81,10 +81,10 @@ h2 {
 .btn-blue {
   color: #3abf96;
   background-color: #fffeff;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-size: 18px;
 
 
@@ -92,10 +92,10 @@ h2 {
 .btn-yelow {
   color: #3187bd;
   background-color: #fefefd;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-size: 18px;
 }
 .btn-blue:hover,
